@@ -68,7 +68,7 @@
             <div class="container">
                 <h3 class="section-title">Selected Work</h3>
                 <div class="projects-grid">
-                    <article class="project-card">
+                    <article class="project-card" data-src="https://gabriellpequeno.github.io/Outer_wilds/">
                         <div class="project-image">
                             <img src="./images/outer-wilds.png" alt="Project 1">
                         </div>
@@ -84,12 +84,11 @@
                         </div>
                     </article>
 
-                    <article class="project-card">
+                    <article class="project-card" data-src="https://gabriellpequeno.github.io/Kurosawa-Project/">
                         <div class="project-image">
                             <img src="./images/kurosawa-project.png" alt="Project 2">
                         </div>
-                        <div class="project-info" onclick="openModal()"
-                            data-src="https://gabriellpequeno.github.io/Kurosawa-Project/#titleSection">
+                        <div class="project-info">
                             <h4 class="project-title">Kurosawa Project</h4>
                             <p class="project-description">A tribute page about Akira Kurosawa the
                                 Japonese most influential movie director</p>
@@ -120,7 +119,7 @@
             <div id="modal-page" class="">
                 <iframe src="" frameborder="0">
                 </iframe>
-                <button onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <button id="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                         fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                         <path
                             d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
@@ -169,6 +168,7 @@
             <p class="footer-text">&copy; 2025 made by Gabriel Pequeno</p>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
