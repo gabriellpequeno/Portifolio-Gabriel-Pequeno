@@ -9,7 +9,8 @@
     <link rel="preload" href="./fonts/jaguar.otf" as="font" type="font/otf" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Yuji+Boku&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,8 +20,10 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1>Gabriel Pequeno</h1>
-                    <p class="subtitle">Designer & Dev in development</p>
+                    <a href="#hero">
+                        <h1>Gabriel Pequeno</h1>
+                        <p class="subtitle">Designer & Dev in development</p>
+                    </a>
                 </div>
                 <nav class="nav">
                     <a href="#about" class="nav-link">About</a>
@@ -44,7 +47,7 @@
         </section>
 
         <section id="about" class="about">
-            <div class="container">
+            <div class="container-img">
                 <div>
                     <img src="./images/minha-foto.png" alt="Foto de perfil">
                 </div>
@@ -67,7 +70,7 @@
                 <div class="projects-grid">
                     <article class="project-card">
                         <div class="project-image">
-                            <img src="/placeholder.svg?height=400&width=600" alt="Project 1">
+                            <img src="./images/outer-wilds.png" alt="Project 1">
                         </div>
                         <div class="project-info">
                             <h4 class="project-title">Outer Wilds</h4>
@@ -83,9 +86,10 @@
 
                     <article class="project-card">
                         <div class="project-image">
-                            <img src="/placeholder.svg?height=400&width=600" alt="Project 2">
+                            <img src="./images/kurosawa-project.png" alt="Project 2">
                         </div>
-                        <div class="project-info">
+                        <div class="project-info" onclick="openModal()"
+                            data-src="https://gabriellpequeno.github.io/Kurosawa-Project/#titleSection">
                             <h4 class="project-title">Kurosawa Project</h4>
                             <p class="project-description">A tribute page about Akira Kurosawa the
                                 Japonese most influential movie director</p>
@@ -99,7 +103,7 @@
 
                     <article class="project-card">
                         <div class="project-image">
-                            <img src="/placeholder.svg?height=400&width=600" alt="Project 3">
+                            <img src="./images/Lay's.png" alt="Project 3">
                         </div>
                         <div class="project-info">
                             <h4 class="project-title">Lay`s</h4>
@@ -112,6 +116,15 @@
                         </div>
                     </article>
                 </div>
+            </div>
+            <div id="modal-page" class="">
+                <iframe src="" frameborder="0">
+                </iframe>
+                <button onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path
+                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                    </svg></button>
             </div>
         </section>
 
