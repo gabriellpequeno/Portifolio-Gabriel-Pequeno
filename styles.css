@@ -427,6 +427,26 @@ body {
 
 /* Responsive Design */
 
+@media (max-width: 1200px) {
+    .container-img {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-img {
+        width: 50%;
+    }
+
+}
+
 /* Tablets and below (768px) */
 @media (max-width: 768px) {
     .header-content {
@@ -554,6 +574,16 @@ body {
 
     .section-title {
         font-size: 2.5rem;
+    }
+
+    .about-content {
+        justify-content: space-around;
+    }
+
+    .container-img {
+        width: 20%;
+        margin-left: 600px;
+        margin-right: -800px;
     }
 
     .about-text,
