@@ -298,6 +298,7 @@ body {
     flex-direction: column;
 
     iframe {
+        background-color: #fff;
         width: 50%;
         height: 50%;
     }
