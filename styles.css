@@ -39,13 +39,15 @@ body {
 
 /* Header */
 .header {
-    background-color: var(--color-Dark-Green);
     color: var(--color-Light-Leather);
     padding: 1.5rem 0;
     position: sticky;
     top: 0;
     z-index: 1;
-    border-bottom: 1px solid #333;
+    background: rgba(0, 51, 52, 0.85);
+    box-shadow: 0px 4px 27px 0px rgba(0, 0, 0, 0.356);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
 }
 
 .header-content {
@@ -216,6 +218,10 @@ body {
     padding: 6rem 0;
     background-color: var(--color-Light-Leather);
     scroll-margin-top: 10vh;
+
+    h3 {
+        text-align: center;
+    }
 }
 
 .projects-grid {
@@ -256,6 +262,7 @@ body {
 
 .project-card:hover .project-image img {
     transform: scale(1.05);
+    filter: drop-shadow(-11px 8px 18px #000000);
 }
 
 .project-info {
@@ -284,6 +291,30 @@ body {
 }
 
 /* Modal */
+@keyframes modal-animation {
+    0% {
+        transform: translateY(-60px);
+        opacity: 0%;
+        filter: blur(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 100%;
+        filter: blur(0px);
+    }
+}
+
+@keyframes btn-animation {
+    0% {
+        transform: scale(0%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
 #modal-page {
     display: none;
     position: fixed;
@@ -297,13 +328,17 @@ body {
     align-items: center;
     flex-direction: column;
 
+
     iframe {
+        animation: modal-animation 0.8s ease-in-out;
         background-color: #fff;
         width: 50%;
         height: 50%;
+        filter: drop-shadow(-11px 8px 18px #000000);
     }
 
     button {
+        animation: btn-animation 0.4s ease-in-out;
         cursor: pointer;
         background-color: var(--color-Dark-Green);
         width: 60px;
