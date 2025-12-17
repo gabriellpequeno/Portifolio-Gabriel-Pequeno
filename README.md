@@ -2,7 +2,7 @@
 
 # Kurosawa Project - Portfólio de Desenvolvedor Web
 
-[![Status do Projeto](https://img.shields.io/badge/Status-Concluído%20%2F%20Manutenção-green)](https://github.com/gabriellpequeno/Portifolio-Gabriel-Pequeno)
+[![Status do Projeto](https://img.shields.io/badge/Status-Concluído%20%2F%20Manutenção-green)]([https://github.com/gabriellpequeno/Portifolio-Gabriel-Pequeno](https://gabriellpequeno.github.io/Portifolio-Gabriel-Pequeno/))
 
 ## Visão Geral do Projeto
 
@@ -57,3 +57,4 @@ Se você deseja usar este código ou testá-lo localmente:
     ```
 
 3.  Abra o arquivo `index.html` em seu navegador.
+
