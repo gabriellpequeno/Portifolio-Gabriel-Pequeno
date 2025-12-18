@@ -1,9 +1,5 @@
 ﻿# Portifolio-Gabriel-Pequeno
 
-# Kurosawa Project - Portfólio de Desenvolvedor Web
-
-[![Status do Projeto](https://img.shields.io/badge/Status-Concluído%20%2F%20Manutenção-green)]([https://github.com/gabriellpequeno/Portifolio-Gabriel-Pequeno](https://gabriellpequeno.github.io/Portifolio-Gabriel-Pequeno/))
-
 ## Visão Geral do Projeto
 
 Este projeto é uma seção conceitual de portfólio pessoal, desenvolvida como um exercício prático para demonstrar proficiência em HTML semântico e CSS puro, com foco em design, responsividade e acessibilidade.
@@ -44,5 +40,6 @@ Se você deseja usar este código ou testá-lo localmente:
     ```
 
 3.  Abra o arquivo `index.html` em seu navegador.
+
 
 
