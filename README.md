@@ -13,7 +13,8 @@ O objetivo principal foi criar uma experiência de usuário limpa e memorável u
 
 * **HTML5:** Estrutura e semântica.
 * **CSS3:** Estilização e layout (Flexbox e *Media Queries*).
-* **Google Fonts:** Tipografia (*Montserrat* e *Yuji Boku*).
+* **Google Fonts:** Tipografia (*Montserrat*).
+* **Local Font:** Tipografia (*Jaguar*)
 
 ## Design e Protótipo
 
@@ -40,6 +41,7 @@ Se você deseja usar este código ou testá-lo localmente:
     ```
 
 3.  Abra o arquivo `index.html` em seu navegador.
+
 
 
 
