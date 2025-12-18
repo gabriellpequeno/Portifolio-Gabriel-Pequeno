@@ -33,7 +33,7 @@ Se você deseja usar este código ou testá-lo localmente:
 
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/gabriellpequeno/Portifolio-Gabriel-Pequeno.git](https://github.com/gabriellpequeno/Portifolio-Gabriel-Pequeno.git)
+    git clone https://github.com/gabriellpequeno/Portifolio-Gabriel-Pequeno.git
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
@@ -41,6 +41,7 @@ Se você deseja usar este código ou testá-lo localmente:
     ```
 
 3.  Abra o arquivo `index.html` em seu navegador.
+
 
 
 
