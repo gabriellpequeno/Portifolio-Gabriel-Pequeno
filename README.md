@@ -6,25 +6,12 @@
 
 ## Visão Geral do Projeto
 
-Este projeto é uma seção conceitual de portfólio pessoal, desenvolvida como um exercício prático para demonstrar proficiência em HTML semântico e CSS puro, com foco em design, responsividade e acessibilidade. O tema escolhido, em homenagem ao cineasta Akira Kurosawa, permite a exploração de cores fortes, contraste visual e tipografia de impacto.
-
+Este projeto é uma seção conceitual de portfólio pessoal, desenvolvida como um exercício prático para demonstrar proficiência em HTML semântico e CSS puro, com foco em design, responsividade e acessibilidade.
 O objetivo principal foi criar uma experiência de usuário limpa e memorável utilizando apenas as tecnologias base da Web.
 
 ## Demonstração Online
 
 [Acesse a Demonstração do Projeto (GitHub Pages)](https://gabriellpequeno.github.io/Portifolio-Gabriel-Pequeno)
-
-## Requisitos Atendidos
-
-| Requisito | Status | Implementação |
-| :--- | :--- | :--- |
-| **HTML Semântico** | Uso de `<header>`, `<nav>`, `<main>`, `<section>` e `<h1>`/`<p>` para estruturar o conteúdo de forma lógica para navegadores e leitores de tela. |
-| **CSS Puro** | Todo o design e layout foram construídos com CSS nativo, sem o auxílio de *frameworks* (Bootstrap, Tailwind) ou pré-processadores (Sass). |
-| **Design Limpo e Pensado** | A paleta de cores (vermelho, azul escuro e branco) e a tipografia (Montserrat e Yuji Boku) foram escolhidas para evocar o tema japonês e garantir alto contraste e legibilidade. |
-| **Responsividade** | O *layout* foi projetado para se adaptar a diferentes tamanhos de tela (desktop, tablet e mobile) utilizando *media queries* e unidades relativas (`vw`, `vh`, `rem`). |
-| **Acessibilidade** | O contraste entre texto e fundo foi testado (WCAG AA). Imagens possuem texto alternativo (`alt`). É necessário verificar a navegação via teclado. |
-| **Protótipo (Figma)** | O design foi prototipado no Figma para planejar a estrutura e o fluxo visual antes da codificação. |
-| **Documentação (README)** | Este arquivo serve como a documentação completa do projeto. |
 
 ## Tecnologias Utilizadas
 
@@ -37,7 +24,7 @@ O objetivo principal foi criar uma experiência de usuário limpa e memorável u
 O protótipo foi fundamental para definir o *layout* de *side-scroll* em algumas seções e a sobreposição do conteúdo.
 
 * **Ferramenta de Protótipo:** Figma
-* **Link para o Protótipo:** [Insira o link público do Figma aqui]
+* **Link para o Protótipo:** [(https://www.figma.com/design/2CDOQaKcJEZhvU6nzE9KmX/Portfolio?node-id=0-1&t=L0WqnZhVGQuUNYil-1)]
 
 ## Estrutura do Repositório
 
@@ -57,4 +44,5 @@ Se você deseja usar este código ou testá-lo localmente:
     ```
 
 3.  Abra o arquivo `index.html` em seu navegador.
+
 
